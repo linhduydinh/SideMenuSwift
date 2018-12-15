@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041E0D7821C15B7A00FAA34D /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0D7721C15B7A00FAA34D /* SideMenuTableViewController.swift */; };
+		041E0D7A21C16C4200FAA34D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0D7921C16C4200FAA34D /* MainViewController.swift */; };
 		04A7C53021A1AF7300AA6637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7C52F21A1AF7300AA6637 /* AppDelegate.swift */; };
 		04A7C53221A1AF7300AA6637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7C53121A1AF7300AA6637 /* ViewController.swift */; };
 		04A7C53521A1AF7300AA6637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7C53321A1AF7300AA6637 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041E0D7721C15B7A00FAA34D /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		041E0D7921C16C4200FAA34D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		04A7C52C21A1AF7300AA6637 /* SideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A7C52F21A1AF7300AA6637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A7C53121A1AF7300AA6637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				04A7C53621A1AF7500AA6637 /* Assets.xcassets */,
 				04A7C53821A1AF7500AA6637 /* LaunchScreen.storyboard */,
 				04A7C53B21A1AF7500AA6637 /* Info.plist */,
+				041E0D7721C15B7A00FAA34D /* SideMenuTableViewController.swift */,
+				041E0D7921C16C4200FAA34D /* MainViewController.swift */,
 			);
 			path = SideMenu;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A7C53221A1AF7300AA6637 /* ViewController.swift in Sources */,
+				041E0D7821C15B7A00FAA34D /* SideMenuTableViewController.swift in Sources */,
 				04A7C53021A1AF7300AA6637 /* AppDelegate.swift in Sources */,
+				041E0D7A21C16C4200FAA34D /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
